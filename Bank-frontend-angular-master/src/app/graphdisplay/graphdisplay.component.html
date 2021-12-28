@@ -1,0 +1,15 @@
+<div class="container">
+    <a class="button-div">
+        <button (click)=" displayData()">Expenditures</button>
+    </a>
+
+    <a class="button-div">
+        <button (click)=" displayDebit()">Debit Analysis</button>
+    </a>
+
+
+    <div class="img-div">
+        <img src="imgLoad" alt="" [lazyLoad]="image$ | async">
+    </div>
+   </div>
+
